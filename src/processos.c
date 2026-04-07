@@ -5,8 +5,8 @@
 #include <unistd.h>
 #include <sys/wait.h>
 
-//testando com um valor menor   
-#define TOTAL 1000000
+  
+#define TOTAL 1000000000
 
 void executar_processos_sem_sync(int n) {
     /*usando IPC
