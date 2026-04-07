@@ -9,7 +9,7 @@ Integrantes do grupo:
 
 O projeto tem como objetivo comparar o desempenho entre processos e threads em ambiente Unix-like, analisando overhead de criação, comunicação e consistência de dados.
 
-------------------------------------INTRUSÇÕES---------------------------------------
+------------------------------------INSTRUÇÕES---------------------------------------
 Como rodar:
 
 -Passo 1
