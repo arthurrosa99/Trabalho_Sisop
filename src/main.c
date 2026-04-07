@@ -10,5 +10,11 @@ int main() {
     executar_processos_sem_sync(4);
     executar_processos_sem_sync(8);
 
+    printf("--------- COM SEMÁFORO PROCESOS --------- \n");
+
+    executar_processos_com_semaforo(2);
+    executar_processos_com_semaforo(4);
+    executar_processos_com_semaforo(8);
+
     return 0;
 }

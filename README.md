@@ -60,9 +60,9 @@ Onde:
 
 | N | P1 (s)| P2 (s)| 
 | - | ------ | -----|
-| 2 | 0,95   | X,XX | 
-| 4 | 0.61   | X,XX | 
-| 8 | 0.46   | X,XX | 
+| 2 | 0,95   | 0,44 | 
+| 4 | 0.61   | 0,34 | 
+| 8 | 0.46   | 0,26 | 
 
 Observações: O código foi executado **três vezes para cada valor de N**, os valores apresentados na tabela correspondem à **média dos tempos obtidos**.
 
