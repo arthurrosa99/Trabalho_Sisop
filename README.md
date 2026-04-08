@@ -148,8 +148,7 @@ Os valores finais do contador ficaram abaixo de 1 bilhão devido a race conditio
 
 ## Grafico de Escalabilidade
 
-![alt text](../../Gerador_grafico/grafico_processo_threads.png)
-
+![alt text](img/grafico_processo_threads.png)
 
 ## Conclusão Final
 
