@@ -73,4 +73,46 @@ Observações: O código foi executado **três vezes para cada valor de N**, os 
 ![alt text](img/grafico_processos.png)
 
 
+-------------------------------------THREADS-----------------------------------------
+## Assinatura do Hardware
 
+A identificação do hardware foi obtida por meio do comando:
+"sysctl -a | grep hw.ncpu"
+
+Resultado:
+hw.ncpu: 10
+
+Isso indica que a máquina utilizada possui **10 núcleos de CPU**.
+
+## Tabela de Tempo de Execução
+
+Os tempos de execução foram obtidos utilizando o comando:
+"time ./trab"
+
+Onde:
+- **T1**: execução sem sincronização.  
+- **T2**: execução com sincronização. 
+
+| N | T1 (s)| T2 (s)| 
+| - | ------ | -----|
+| 2 | X,XX   | X,XX | 
+| 4 | X,XX   | X,XX | 
+| 8 | X,XX   | X,XX | 
+
+Observações: O código foi executado **três vezes para cada valor de N**, os valores apresentados na tabela correspondem à **média dos tempos obtidos**.
+
+
+## Grafico de Escalabilidade
+
+
+
+--------------------------------PROCESSOS X THREADS----------------------------------
+
+
+## Tabela de Tempo de Execução
+
+
+## Análise de Corrupção
+
+
+## Grafico de Escalabilidade
