@@ -70,7 +70,7 @@ Observações: O código foi executado **três vezes para cada valor de N**, os 
 
 ## Grafico de Escalabilidade
 
-![alt text](img/Grafico_Escalabilidade_Processos.png)
+![alt text](img/grafico_processos.png)
 
 
 
