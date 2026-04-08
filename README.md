@@ -22,7 +22,7 @@ Como utilizamos MAKEFILE para compilar pode apenas utilizar o comando:
 "make".
 
 -Passo 3 
-Como utilizamos MAKEFILE para rodar o programa pode apenas utilizar o comando: 
+Como utilizamos MAKEFILE para executar o programa pode apenas utilizar o comando: 
 "make run".
 
 *OPCIONAL DO PASSO 2 E 3*
