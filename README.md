@@ -111,6 +111,12 @@ Observações: O código foi executado **três vezes para cada valor de N**, os 
 
 ## Tabela de Tempo de Execução
 
+| N | P1 (s)| P2 (s)| T1 (s)| T2 (s)|
+| - | ------| ----- |-------|-------|
+| 2 | 0,95  | 0,44  | X,XX  | X,XX  |
+| 4 | 0.61  | 0,34  | X,XX  | X,XX  |
+| 8 | 0.46  | 0,26  | X,XX  | X,XX  |
+
 
 ## Análise de Corrupção
 
