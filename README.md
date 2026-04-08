@@ -93,11 +93,11 @@ Onde:
 - **T1**: execução sem sincronização.  
 - **T2**: execução com sincronização. 
 
-| N | T1 (s)| T2 (s)| 
-| - | ------ | -----|
-| 2 | 0,83   | X,XX | 
-| 4 | 0,63   | X,XX | 
-| 8 | 0,40   | X,XX | 
+| N | T1 (s)| T2 (s) | 
+| - | ------ | ------|
+| 2 | 0,83   | 7,86  | 
+| 4 | 0,63   | 11,56 | 
+| 8 | 0,40   | 15,29 | 
 
 Observações: O código foi executado **três vezes para cada valor de N**, os valores apresentados na tabela correspondem à **média dos tempos obtidos**.
 
@@ -111,11 +111,11 @@ Observações: O código foi executado **três vezes para cada valor de N**, os 
 
 ## Tabela de Tempo de Execução
 
-| N | P1 (s)| P2 (s)| T1 (s)| T2 (s)|
-| - | ------| ----- |-------|-------|
-| 2 | 0,95  | 0,44  | X,XX  | X,XX  |
-| 4 | 0.61  | 0,34  | X,XX  | X,XX  |
-| 8 | 0.46  | 0,26  | X,XX  | X,XX  |
+| N | P1 (s)| P2 (s)| T1 (s)| T2 (s) |
+| - | ------| ----- |-------|--------|
+| 2 | 0,95  | 0,44  | 0,83  | 7,86   |
+| 4 | 0.61  | 0,34  | 0,63  | 11,56  |
+| 8 | 0.46  | 0,26  | 0,40  | 15,29  |
 
 
 ## Análise de Corrupção
