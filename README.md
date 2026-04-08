@@ -95,9 +95,9 @@ Onde:
 
 | N | T1 (s)| T2 (s)| 
 | - | ------ | -----|
-| 2 | X,XX   | X,XX | 
-| 4 | X,XX   | X,XX | 
-| 8 | X,XX   | X,XX | 
+| 2 | 0,83   | X,XX | 
+| 4 | 0,63   | X,XX | 
+| 8 | 0,40   | X,XX | 
 
 Observações: O código foi executado **três vezes para cada valor de N**, os valores apresentados na tabela correspondem à **média dos tempos obtidos**.
 

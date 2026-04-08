@@ -15,6 +15,7 @@ int main() {
     executar_processos_com_semaforo(2);
     executar_processos_com_semaforo(4);
     executar_processos_com_semaforo(8);
+ 
 
     printf("--------- SEM MUTEX THREADS --------- \n");
 
