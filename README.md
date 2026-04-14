@@ -93,11 +93,11 @@ Onde:
 - **T1**: execução sem sincronização.  
 - **T2**: execução com sincronização. 
 
-| N | T1 (s)| T2 (s) | 
-| - | ------ | ------|
-| 2 | 0,83   | 7,86  | 
-| 4 | 0,63   | 11,56 | 
-| 8 | 0,40   | 15,29 | 
+| N | T1 (s)|T2 (s)| 
+| - | ------| -----|
+| 2 | 0,83  | 0,34 | 
+| 4 | 0,63  | 0,20 | 
+| 8 | 0,40  | 0,13 | 
 
 Observações: O código foi executado **três vezes para cada valor de N**, os valores apresentados na tabela correspondem à **média dos tempos obtidos**.
 
@@ -112,11 +112,11 @@ Observações: O código foi executado **três vezes para cada valor de N**, os 
 
 ## Tabela de Tempo de Execução
 
-| N | P1 (s)| P2 (s)| T1 (s)| T2 (s) |
-| - | ------| ----- |-------|--------|
-| 2 | 0,95  | 0,44  | 0,83  | 7,86   |
-| 4 | 0.61  | 0,34  | 0,63  | 11,56  |
-| 8 | 0.46  | 0,26  | 0,40  | 15,29  |
+| N | P1 (s)| P2 (s)| T1 (s)| T2 (s)|
+| - | ------| ----- |-------|-------|
+| 2 | 0,95  | 0,44  | 0,83  | 0,34  |
+| 4 | 0.61  | 0,34  | 0,63  | 0,20  |
+| 8 | 0.46  | 0,26  | 0,40  | 0,13  |
 
 
 ## Análise de Corrupção
@@ -148,7 +148,7 @@ Os valores finais do contador ficaram abaixo de 1 bilhão devido a race conditio
 
 ## Grafico de Escalabilidade
 
-![alt text](img/grafico_processo_threads.png)
+![alt text](img/Grafico_threads_processos.png)
 
 ## Conclusão Final
 

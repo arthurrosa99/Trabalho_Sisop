@@ -27,7 +27,7 @@ int main() {
 
     executar_threads_com_mutex(2);
     executar_threads_com_mutex(4);
-     executar_threads_com_mutex(8);
+    executar_threads_com_mutex(8);
    
     return 0;
 }
