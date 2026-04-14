@@ -52,7 +52,7 @@ Isso indica que a máquina utilizada possui **10 núcleos de CPU**.
 
 ## Tabela de Tempo de Execução
 
-Os tempos de execução foram obtidos utilizando o comando:
+Os tempos de execução foram obtidos utilizando relógios para medir o tempo e tambem o comando:
 "time ./trab"
 
 Onde:
@@ -86,8 +86,8 @@ Isso indica que a máquina utilizada possui **10 núcleos de CPU**.
 
 ## Tabela de Tempo de Execução
 
-Os tempos de execução foram obtidos utilizando o comando:
-"time ./trab"
+Os tempos de execução foram obtidos utilizando relógios para medir o tempo e tambem o comando:
+"time ./trab" 
 
 Onde:
 - **T1**: execução sem sincronização.  
